@@ -1,0 +1,20 @@
+{
+    "name": "duodraco/imasters-simple-math",
+    "description": "Simple math api proudly coded on PHP",
+    "require": {
+        "respect/rest": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anderson 'Duodraco' Casimiro",
+            "email": "o@duodra.co"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload":{
+        "psr-4":{
+            "iMasters\\SimpleMath\\":"application/source/iMasters/SimpleMath/"
+        }
+    }
+}
